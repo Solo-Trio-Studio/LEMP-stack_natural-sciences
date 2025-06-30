@@ -1,1 +1,1 @@
-Use AlmaLinux & Nginx.
+Use Nginx
