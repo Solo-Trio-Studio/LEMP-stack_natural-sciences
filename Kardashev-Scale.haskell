@@ -1,19 +1,8 @@
-<html>
-  <head>
-    <title>Natural Sciences</title>
-    <style>
-      body {
-        font-family: sans-serif;
-	font-size: 18px;
-	line-height: 150%;
-      }  
-    </style>
-  </head>
-  <body>
-    <h2>Kardashev Scale</h2>
-    <p>
-      1-6 are important for consideration.
-    </p>
+module Main where
+
+main :: IO ()
+main = putStrLn "Kardashev Scale, 1-6 are important for consideration."
+    {-
     <h2>Environmental Science</h2>
     <p>
       Ecosphere, Biome, Ecosystem, Community, Population, Organism. There are various trophic levels (tertiary/secondary/primary/other) and cycles (rock/water/nitrogen/light).
@@ -48,5 +37,4 @@
     </p>
     <h2>Energy</h2>
     <p>Fusion/Fission may sometime become less important than solar sources.</p>
-  </body>
-</html>
+-}
